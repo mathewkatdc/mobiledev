@@ -22,16 +22,11 @@
             </tr>
             <tr style="border:solid 1px violet">
                 <td align="right">Password:&nbsp;</td>
-                <td><input name="pwd" type="password" /></td><td></td>
+                <td><input name="pwd" type="Password" /></td><td></td>
             </tr>
 			<tr>
-				<td><button id="btnLogin" class="float-left submit-button" >Login</button></td>
-				<script type="text/javascript">
-					document.getElementById("myButton").onclick = function () {
-						location.href = "course_page.html";
-					};
-				</script>
-
+				<td><button onclick="location.href = 'course_page.html';" id="Login" class="float-left submit-button" >Login</button></td>
+				
 				<td><input type="reset" value = "Reset" /></td>
 			</tr>
         </table>
