@@ -3,20 +3,20 @@
 }
 
 .col-1 {
-	height: 80px;
-	width: 30px;
+	height: 400px;
+	width: 1000px;
 }
 .col-2 {
-	height: 80px;
-	width: 30px;
+	height: 400px;
+	width: 1000px;
 }
 .col-3 {
-	height: 80px;
-    width: 30px;
+	height: 400px;
+	width: 1000px;
 }
 .col-4 {
-	height: 80px;
-    width: 30px;
+	height: 400px;
+	width: 1000px;
 }
 
 [class*="col-"] {
