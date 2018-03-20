@@ -42,3 +42,9 @@ html {
 .menu li:hover {
     background-color: #0099cc;
 }
+
+img {
+    max-width: 25%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
