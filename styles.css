@@ -19,10 +19,9 @@
 
 
 .video {
-	height: 900px;
-	width: 900px;
+	height: 400px;
+	width: 700px;
 	float: left;
-	padding: 20px;
 }
 
 a.button {
