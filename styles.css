@@ -26,12 +26,11 @@
 }
 
 .audio {
-	height: 100px;
+	height: 150px;
 	width: 1500px;
 }
 
 [class*="audio"] {
-	border: 1px solid red;
 	float: left;
 	padding: 20px;
 }
