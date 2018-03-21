@@ -34,6 +34,16 @@
 	padding: 20px;
 }
 
+.video {
+	height: 400px;
+	width: 400px;
+}
+
+[class*="video"] {
+	float:left;
+	padding: 20px;
+}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
