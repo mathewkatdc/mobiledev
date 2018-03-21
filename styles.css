@@ -40,7 +40,6 @@ a.button {
     -moz-appearance: button;
     appearance: button;
 	border: 1px solid gray;
-	background-color: light gray;
 
     text-decoration: none;
     color: initial;
