@@ -2,26 +2,11 @@
     box-sizing: border-box;
 }
 
-.col-1 {
-	height: 700px;
-	width: 350px;
-}
-.col-2 {
-	height: 700px;
-	width: 350px;
-}
-.col-3 {
-	height: 700px;
-	width: 350px;
-}
-.col-4 {
-	height: 700px;
-	width: 350px;
-}
-
 [class*="col-"] {
     float: left;
     padding: 15px;
+	height: 700px;
+	width:350px;
 }
 
 .audio {
@@ -36,7 +21,7 @@
 
 .video {
 	height: 400px;
-	width: 400px;
+	width: 1500px;
 }
 
 [class*="video"] {
