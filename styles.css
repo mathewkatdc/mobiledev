@@ -5,18 +5,22 @@
 .col-1 {
 	height: 700px;
 	width: 350px;
+	padding: 10px;
 }
 .col-2 {
 	height: 700px;
 	width: 350px;
+	padding: 10px;
 }
 .col-3 {
 	height: 700px;
 	width: 350px;
+	padding: 10px;
 }
 .col-4 {
 	height: 700px;
 	width: 350px;
+	padding: 10px;
 }
 
 [class*="col-"] {
