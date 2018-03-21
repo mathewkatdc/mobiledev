@@ -30,11 +30,6 @@
 	width: 1500px;
 }
 
-[class*="audio"] {
-	float: left;
-	border: 1px solid red;
-}
-
 .row::after {
     content: "";
     clear: both;
