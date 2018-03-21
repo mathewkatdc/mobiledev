@@ -6,25 +6,21 @@
     float: left;
     padding: 15px;
 	height: 700px;
-	width:350px;
+	width: 350px;
+	border-style: groove;
 }
 
 .audio {
 	height: 150px;
 	width: 1500px;
-}
-
-[class*="audio"] {
 	float: left;
 	padding: 20px;
 }
 
+
 .video {
 	height: 400px;
 	width: 1500px;
-}
-
-[class*="video"] {
 	float:left;
 	padding: 20px;
 }
