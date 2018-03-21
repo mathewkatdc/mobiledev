@@ -4,6 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CW3 Home</title>
+
+<script src="js/login.js"></script>
 </head>
 
 <body bgcolor="lightsteelblue">
@@ -22,11 +24,11 @@
             </tr>
             <tr style="border:solid 1px violet">
                 <td align="right">Password:&nbsp;</td>
-                <td><input name="pwd" type="Password" /></td><td></td>
+                <td><input name="password" type="Password" /></td><td></td>
             </tr>
 			<tr>
 				<td>
-				<a href="classwork3.html" class="button"> Login</a>
+				<a onclick="validate()" class="button"> Login</a>
 				<td><input type="reset" value = "Reset" /></td>
 			</tr>
         </table>
