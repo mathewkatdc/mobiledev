@@ -20,7 +20,7 @@
 
 .video {
 	height: 400px;
-	width: 1500px;
+	width: 100%;
 	float: left;
 	padding: 20px;
 	border-color: red;
