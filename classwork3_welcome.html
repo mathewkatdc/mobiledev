@@ -29,7 +29,12 @@
             </tr>
 			<tr>
 				<td>
-					<button onclick="validate();">Login</button>
+					<button id="login" class="float-left submit-button">Login</button>
+					<script type="text/javascript">
+						document.getElementById("login").onclick = function () {
+							location.href = "classwork3.html";
+						};
+					</script>
 				<td><input type="reset" value = "Reset" /></td>
 			</tr>
         </table>
