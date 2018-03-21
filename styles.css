@@ -21,8 +21,9 @@
 .video {
 	height: 400px;
 	width: 1500px;
-	float:left;
+	float: left;
 	padding: 20px;
+	border-color: red;
 }
 
 a.button {
