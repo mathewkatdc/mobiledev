@@ -24,6 +24,17 @@
 	float: left;
 }
 
+.youtube_video {
+	height: 400px;
+	width: 700px;
+	float: right;
+}
+
+.filler1 {
+	height: 400px;
+	width: calc(100vw - 1400px);
+}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
