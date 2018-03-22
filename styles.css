@@ -11,10 +11,13 @@
 }
 
 .audio {
-	height: 200px;
-	width: 1500px;
+	height: 130px;
+	width: 200px;
 	float: left;
 	padding: 20px;
+	padding-bottom: 70px;
+	padding-right: 1500px;
+	border-style: groove;
 }
 
 
