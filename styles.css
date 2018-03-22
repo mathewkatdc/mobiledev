@@ -35,6 +35,12 @@
 	width: calc(100vw - 1400px);
 }
 
+.footer {
+	height: 200px;
+	width: 100%;
+	float: right;
+}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
