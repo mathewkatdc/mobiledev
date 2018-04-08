@@ -35,7 +35,14 @@ File:   hospital-styles.css
 	text-align: left;
 }
 
-@media(min-width:300px)
+.inlinecontent
+{
+	display: inline-block; 
+	float:left; 
+	padding-left: 10px;
+}
+
+@media(min-width:320px)
 {
 	.page
 	{
@@ -45,6 +52,10 @@ File:   hospital-styles.css
 	{
 		padding: 4px 10px;
 	}
+	.inlinecontent
+	{
+		width: 300px;
+	}
 }
 @media (min-width: 500px)
 {
@@ -52,10 +63,17 @@ File:   hospital-styles.css
 	{
 		padding: 8px 18px;
 	}
+	.inlinecontent
+	{
+		width: 480px;
+	}
 }
 @media (min-width: 800px)
 {
-	
+	.inlinecontent
+	{
+		width: 600px;
+	}
 }
 @media (min-width: 1100px)
 {
