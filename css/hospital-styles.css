@@ -56,6 +56,10 @@ File:   hospital-styles.css
 	{
 		width: 320px;
 	}
+	h1
+	{
+		font-size: 24px;
+	}
 }
 @media (min-width: 500px)
 {
@@ -66,6 +70,10 @@ File:   hospital-styles.css
 	.inlinecontent
 	{
 		width: 500px;
+	}
+	h1
+	{
+		font-size: 32px;
 	}
 }
 @media (min-width: 800px)
