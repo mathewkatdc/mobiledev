@@ -56,6 +56,11 @@ File:   hospital-styles.css
 	{
 		width: 320px;
 	}
+	.video
+	{
+		width: 307px;
+		height: 173px;
+	}
 	h1
 	{
 		font-size: 20px;
@@ -71,6 +76,11 @@ File:   hospital-styles.css
 	{
 		width: 500px;
 	}
+	.video
+	{
+		width: 480px;
+		height: 270px;
+	}
 	h1
 	{
 		font-size: 32px;
@@ -80,7 +90,13 @@ File:   hospital-styles.css
 {
 	.inlinecontent
 	{
-		width: 600px;
+		padding-right: 10px;
+		width: 800px;
+	}
+	.video
+	{
+		width: 768px;
+		height: 432px;
 	}
 }
 @media (min-width: 1100px)
@@ -88,6 +104,15 @@ File:   hospital-styles.css
 	.page
 	{
 		width: 1100px;
+	}
+	.inlinecontent
+	{
+		width: 470px;
+	}
+	.video
+	{
+		width: 604px;
+		height: 340px;
 	}
 }
 
