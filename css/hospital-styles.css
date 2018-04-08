@@ -54,7 +54,7 @@ File:   hospital-styles.css
 	}
 	.inlinecontent
 	{
-		width: 300px;
+		width: 320px;
 	}
 }
 @media (min-width: 500px)
@@ -65,7 +65,7 @@ File:   hospital-styles.css
 	}
 	.inlinecontent
 	{
-		width: 480px;
+		width: 500px;
 	}
 }
 @media (min-width: 800px)
