@@ -52,6 +52,27 @@ File:   hospital-styles.css
 	width: 260px;
 }
 
+.staffinfo
+{
+	display: inline-block; 
+	float:left; 
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 220px;
+}
+
+.stafftable img
+{
+	width: 200px;
+	height:200px;
+}
+
+.stafftable td, .stafftable th
+{
+	text-align: center;
+}
+
 @media(min-width:320px)
 {
 	.page, .appointment, .submit
@@ -96,6 +117,10 @@ File:   hospital-styles.css
 	{
 		font-size: 32px;
 	}
+	.separator
+	{
+		clear:both;
+	}
 }
 @media (min-width: 800px)
 {
@@ -109,7 +134,6 @@ File:   hospital-styles.css
 		width: 768px;
 		height: 432px;
 	}
-	
 }
 @media (min-width: 1100px)
 {
@@ -125,6 +149,10 @@ File:   hospital-styles.css
 	{
 		width: 604px;
 		height: 340px;
+	}
+	.separator
+	{
+		clear:none;
 	}
 }
 
