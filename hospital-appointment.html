@@ -1,7 +1,7 @@
 <!--
 Author: Mathew Kostrzewa
 Date:   2018-04-08
-File:   hospital-index.html
+File:   hospital-appointment.html
 -->
 
 <!DOCTYPE html>
@@ -12,9 +12,11 @@ File:   hospital-index.html
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/hospital-styles.css" />
 	
-	<title>Hospital Homepage</title> 
+	<title>Book an Appointment</title> 
 
 </head>
+
+<!-- Top of page, header and navigation starts here -->
 
 <body>
 <div class="pagewrapper"><div class="page">
@@ -31,9 +33,130 @@ File:   hospital-index.html
 		<a href='hospital-appointment.html' class='navbutton'>Appointment</a>
 		<a href='hospital-staff.html' class='navbutton'>Staff</a>
 	</nav>
-	<br/><br/><br/>
+	<br/><br/>
+	
+	<!-- Page contents starts here -->
 
-	content starts here
+	 <div style="padding-left: 10px">
+		<h1>Book an Appointment!</h1>
+	</div>
+	
+	<form id="appointment">
+	<center>
+	
+		<table class="appointment">
+			
+			<tr>
+				<th colspan="2">Patient Information</th>
+			</tr>
+			
+			<tr>
+				<td>Full Name:</td>
+				<td><input name="fullname" type="text" style="width: 250px;"/></td>
+			</tr>
+			
+			<tr>
+				<td>Health Card #:</td>
+				<td><input name="healthcardnum" type="text" style="width: 250px;" placeholder="1234-123-123-YZ"/></td>
+			</tr>
+			
+			<tr>
+				<td>Address:</td>
+				<td><input name="address" type="text" style="width:250px;"/></td>
+			</tr>
+			
+			<tr>
+				<td>City:</td>
+				<td><input name="city" type="text"/></td>
+			</tr>
+			
+			<tr>
+				<td>Province:</td>
+				<td>
+					<select name="province" style="width:50px;">
+						<option value="AB">AB</option>
+						<option value="BC">BC</option>
+						<option value="MB">MB</option>
+						<option value="NB">NB</option>
+						<option value="NL">NL</option>
+						<option value="NS">NS</option>
+						<option value="NT">NT</option>
+						<option value="NU">NU</option>
+						<option value="ON">ON</option>
+						<option value="PE">PE</option>
+						<option value="QC">QC</option>
+						<option value="SK">SK</option>
+						<option value="YT">YT</option>
+					</select>
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<td>Postal Code:</td>
+				<td><input name="postalcode" type="text"/></td>
+			</tr>
+			
+			<tr>
+				<td>Email:</td>
+				<td><input name="email" type="email" placeholder="MatsHospital@example.com" style="width:250px;"/></td>
+			</tr>
+			
+			<tr>
+				<td>Phone:</td>
+				<td><input name="phone" type="tel" placeholder="123-456-6789"/></td>
+			</tr>
+		</table>
+	
+	<br/><br/>
+	
+	<table class="appointment">
+			
+		<tr>
+			<th colspan="2">Appointment Information</th>
+		</tr>
+		
+		<tr>
+			<td>Location:</td>
+			<td>
+				<select name="location" style="width: 100px;"/>
+					<option value="Oshawa">Oshawa</option>
+					<option value="Whitby">Whitby</option>
+					<option value="Ajax">Ajax</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Date:</td>
+			<td>
+				<input type="date" name="deliverydate" max="2019-12-30" min="2018-04-08">
+				<input type="time" name="appointmenttime">
+			</td>
+		
+		<tr>
+			<td>Concern:</td>
+			<td>
+				<textarea name="concern" rows="3" style="width:250px;" placeholder="Enter the reason for the appointment"></textarea>
+			</td>
+		</tr>
+		
+	</table>
+	
+	<br/>
+	
+	<table class="submit">
+		<tr>
+			<td style="text-align: left;">
+				<button type="submit" class="navbutton" name="submit">Book Appointment</button>
+			</td>
+		</tr>
+	</table>
+	
+	</center>
+	</form>
+	
+	
+	<!-- Bottom of page and footer starts here -->
 	
 	<div style="width:100%; display: inline-block;"></div><br/><br/><br/>
 	<footer>
