@@ -48,8 +48,8 @@ File:   hospital-styles.css
 	float:left; 
 	padding-top: 20px;
 	padding-left: 20px;
-	padding-right: 80px;
-	width: 240px;
+	padding-right: 60px;
+	width: 260px;
 }
 
 @media(min-width:320px)
@@ -75,6 +75,7 @@ File:   hospital-styles.css
 	{
 		font-size: 20px;
 	}
+	
 }
 @media (min-width: 500px)
 {
