@@ -42,6 +42,16 @@ File:   hospital-styles.css
 	padding-left: 10px;
 }
 
+.locationinfo
+{
+	display: inline-block; 
+	float:left; 
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 90px;
+	width: 230px;
+}
+
 @media(min-width:320px)
 {
 	.page
@@ -120,6 +130,16 @@ File:   hospital-styles.css
 {
 	width: 100%;
 	display: inline-block;
+}
+
+.locationinfo th
+{
+	padding-right: 10px;
+}
+
+.locationinfo td, .locationinfo th
+{
+	padding-top: 6px;
 }
 
 /* Button design help from: http://livetools.uiparade.com/button-builder.html# */
